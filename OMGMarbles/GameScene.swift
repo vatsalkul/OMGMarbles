@@ -67,7 +67,7 @@ class GameScene: SKScene {
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
         if let accelerometerData = motionManger.accelerometerData {
-            physicsWorld.gravity = CGVector(dx: accelerometerData.acceleration.y * 50, dy: accelerometerData.acceleration.x * 50)
+            physicsWorld.gravity = CGVector(dx: accelerometerData.acceleration.y * -50, dy: accelerometerData.acceleration.x * 50)
         }
     }
     

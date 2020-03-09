@@ -14,7 +14,8 @@
 		83B51ED22416C7160012EC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B51ED02416C7160012EC80 /* Main.storyboard */; };
 		83B51ED42416C71B0012EC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B51ED32416C71B0012EC80 /* Assets.xcassets */; };
 		83B51ED72416C71B0012EC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B51ED52416C71B0012EC80 /* LaunchScreen.storyboard */; };
-		83B51EDF2416DEA50012EC80 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83B51EDE2416DEA50012EC80 /* Explosion.sks */; };
+		83B51EE22416EB410012EC80 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83B51EE02416EB410012EC80 /* Explosion.sks */; };
+		83B51EE32416EB410012EC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B51EE12416EB410012EC80 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		83B51ED32416C71B0012EC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83B51ED62416C71B0012EC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83B51ED82416C71B0012EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83B51EDE2416DEA50012EC80 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		83B51EE02416EB410012EC80 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		83B51EE12416EB410012EC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,8 @@
 		83B51EBA2416C7160012EC80 = {
 			isa = PBXGroup;
 			children = (
+				83B51EE02416EB410012EC80 /* Explosion.sks */,
+				83B51EE12416EB410012EC80 /* Assets.xcassets */,
 				83B51EC52416C7160012EC80 /* OMGMarbles */,
 				83B51EC42416C7160012EC80 /* Products */,
 			);
@@ -66,7 +70,6 @@
 				83B51ECE2416C7160012EC80 /* GameViewController.swift */,
 				83B51ED02416C7160012EC80 /* Main.storyboard */,
 				83B51ED32416C71B0012EC80 /* Assets.xcassets */,
-				83B51EDE2416DEA50012EC80 /* Explosion.sks */,
 				83B51ED52416C71B0012EC80 /* LaunchScreen.storyboard */,
 				83B51ED82416C71B0012EC80 /* Info.plist */,
 			);
@@ -133,8 +136,9 @@
 			files = (
 				83B51ED22416C7160012EC80 /* Main.storyboard in Resources */,
 				83B51EC92416C7160012EC80 /* GameScene.sks in Resources */,
-				83B51EDF2416DEA50012EC80 /* Explosion.sks in Resources */,
+				83B51EE22416EB410012EC80 /* Explosion.sks in Resources */,
 				83B51ED42416C71B0012EC80 /* Assets.xcassets in Resources */,
+				83B51EE32416EB410012EC80 /* Assets.xcassets in Resources */,
 				83B51ED72416C71B0012EC80 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
